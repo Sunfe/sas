@@ -1,0 +1,1 @@
+gcc -o sas -I/usr/local/mysql/include/ -I../include/ sas_import.c -L/usr/local/mysql/lib -lmysqlclient sas_common.c sas_db.c sas_file.c sas_parze_file.c sas_main.c sas_derive.c sas_trade.c sas_shell.c sas_dbg_print.c sas_timer.c -lreadline -lncurses
